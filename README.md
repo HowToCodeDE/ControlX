@@ -5,7 +5,7 @@ ControlX uses a websocket-wrapper for interproccess-communication. Any programm,
 
 ## Known issues
  - Not working on fullscreen-windows in macOS (Does work in Windows, idk why Apple sucks like that)
- - Transparency and frameless not working in Windows
+ - Transparency and frameless not working in Windows (Should be fixed, but can't check now)
  
 ## Current state
 I'm currently only working on macOS and Windows versions of the app. Later I will do it also for Linux. There isn't any funcionality atm so there is no reason why you should build a version rigth now.
