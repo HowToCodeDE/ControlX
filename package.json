@@ -44,6 +44,12 @@
       },
       "makers": [
         {
+          "name": "@electron-forge/maker-squirrel",
+          "config": {
+            "name": "ControlX"
+          }
+        },
+        {
           "name": "@electron-forge/maker-zip",
           "config": {
             "name": "ControlX"
@@ -53,15 +59,22 @@
           "name": "@electron-forge/maker-zip",
           "platforms": [
             "darwin"
-          ]
+          ],
+          "config": {
+            "name": "ControlX"
+          }
         },
         {
           "name": "@electron-forge/maker-deb",
-          "config": {}
+          "config": {
+            "name": "ControlX"
+          }
         },
         {
           "name": "@electron-forge/maker-rpm",
-          "config": {}
+          "config": {
+            "name": "ControlX"
+          }
         }
       ]
     }
