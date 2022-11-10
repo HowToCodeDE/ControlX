@@ -41,12 +41,13 @@ app.whenReady().then(() => {
   mainWindow = new BrowserWindow({
     width: 100,
     height: height,
-    transparent:true,
-    resizable: false,
+    transparent: true,
+    frame: false,
     alwaysOnTop: true
   });
   mainWindow.setMinimizable(false);
   mainWindow.setAlwaysOnTop(true, 'pop-up-menu');
+  mainWindow.setPosition(width - 100, 0);
   mainWindow.loadURL('http://localhost:8080');
 });
 
