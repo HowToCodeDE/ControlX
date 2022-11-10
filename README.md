@@ -1,5 +1,5 @@
 # ControlX
-A window with custom controls for every window
+A window with custom controls for every programm
 ## How it works
 ControlX uses a websocket-wrapper for interproccess-communication. Any programm, or even a webpage can request ControlX to draw control elements, e.g. for quick navigation. There will be a documentation and a list with wrappers in different programming languages soon.
 
